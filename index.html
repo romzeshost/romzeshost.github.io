@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="yandex-verification" content="031786aabd2399c0" />
-    <title>FABRIKA KADROV — Фабрика кадров | Подбор, обучение, оценка персонала</title>
+    <title>Фабрика кадров | Подбор, обучение, оценка персонала</title>
     <style>
         :root {
             --primary: #2c3e50;
@@ -13,28 +12,25 @@
             --light: #ecf0f1;
             --dark: #2c3e50;
             --success: #27ae60;
+            --accent: #3498db;
         }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-
         body {
             background-color: #f8f9fa;
             color: #333;
             line-height: 1.6;
         }
-
         .container {
             width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-
         /* Header */
         header {
             background: linear-gradient(135deg, var(--primary), #34495e);
@@ -42,19 +38,16 @@
             padding: 60px 0;
             text-align: center;
         }
-
         header h1 {
             font-size: 2.8rem;
             margin-bottom: 15px;
             font-weight: 700;
         }
-
         header p {
             font-size: 1.3rem;
             max-width: 700px;
             margin: 0 auto 30px;
         }
-
         .btn {
             display: inline-block;
             background: var(--secondary);
@@ -68,129 +61,117 @@
             border: none;
             cursor: pointer;
         }
-
         .btn:hover {
             background: #d35400;
             transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
-
         /* Benefits */
         .benefits {
             padding: 60px 0;
             background: white;
         }
-
         .benefits h2 {
             text-align: center;
             margin-bottom: 50px;
             font-size: 2.2rem;
             color: var(--primary);
         }
-
         .benefits-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
         }
-
         .benefit-card {
             text-align: center;
             padding: 30px 20px;
             background: var(--light);
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
             transition: transform 0.3s ease;
         }
-
         .benefit-card:hover {
             transform: translateY(-10px);
         }
-
         .benefit-card i {
             font-size: 2.5rem;
             color: var(--secondary);
             margin-bottom: 15px;
         }
-
-        /* Services */
+        /* Services Section */
         .services {
             padding: 80px 0;
             background: #f8f9fa;
         }
-
         .services h2 {
             text-align: center;
             margin-bottom: 50px;
             font-size: 2.2rem;
             color: var(--primary);
         }
-
+        .category-title {
+            font-size: 1.8rem;
+            margin: 40px 0 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--accent);
+            color: var(--primary);
+            font-weight: 700;
+        }
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
+            margin-bottom: 60px;
         }
-
         .service-card {
             background: white;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
             transition: all 0.3s ease;
         }
-
         .service-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
         }
-
         .service-img {
             height: 200px;
             background-size: cover;
             background-position: center;
         }
-
         .service-content {
             padding: 25px;
         }
-
         .service-title {
             font-size: 1.4rem;
             margin-bottom: 10px;
             color: var(--primary);
         }
-
         .service-price {
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--secondary);
             margin: 10px 0;
         }
-
         .service-desc {
             color: #666;
             margin-bottom: 20px;
             font-size: 0.95rem;
         }
-
         .rating {
             display: flex;
             align-items: center;
             margin-bottom: 15px;
         }
-
         .stars {
             color: #f39c12;
             margin-right: 10px;
             font-size: 1.1rem;
         }
-
         .reviews {
             color: #7f8c8d;
             font-size: 0.9rem;
         }
-
         .badge {
             display: inline-block;
             background: var(--success);
@@ -200,7 +181,6 @@
             font-size: 0.8rem;
             margin-top: 10px;
         }
-
         /* Method */
         .method {
             padding: 80px 0;
@@ -208,58 +188,50 @@
             color: white;
             text-align: center;
         }
-
         .method h2 {
             font-size: 2.2rem;
             margin-bottom: 20px;
         }
-
         .method p {
             max-width: 800px;
             margin: 0 auto 40px;
             font-size: 1.1rem;
             line-height: 1.8;
         }
-
         .method strong {
             color: #f1c40f;
         }
-
         /* Form */
         .form-section {
             padding: 80px 0;
             background: white;
         }
-
         .form-section h2 {
             text-align: center;
             margin-bottom: 50px;
             font-size: 2.2rem;
             color: var(--primary);
         }
-
         .form-container {
             max-width: 600px;
             margin: 0 auto;
             background: var(--light);
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
         }
-
         .form-group {
             margin-bottom: 20px;
         }
-
         .form-group label {
             display: block;
             margin-bottom: 8px;
             font-weight: 600;
             color: var(--dark);
         }
-
         .form-group input,
-        .form-group textarea {
+        .form-group textarea,
+        .form-group select {
             width: 100%;
             padding: 15px;
             border: 2px solid #ddd;
@@ -267,20 +239,18 @@
             font-size: 1rem;
             transition: border 0.3s;
         }
-
         .form-group input:focus,
-        .form-group textarea:focus {
+        .form-group textarea:focus,
+        .form-group select:focus {
             border-color: var(--secondary);
             outline: none;
         }
-
         .form-note {
             text-align: center;
             margin: 20px 0;
             color: #7f8c8d;
             font-style: italic;
         }
-
         /* Footer */
         footer {
             background: var(--dark);
@@ -288,18 +258,15 @@
             padding: 40px 0;
             text-align: center;
         }
-
         .footer-links a {
             color: #bdc3c7;
             text-decoration: none;
             margin: 0 10px;
             transition: color 0.3s;
         }
-
         .footer-links a:hover {
             color: white;
         }
-
         .copyright {
             margin-top: 20px;
             color: #95a5a6;
@@ -310,28 +277,23 @@
             header h1 {
                 font-size: 2.2rem;
             }
-
             header p {
                 font-size: 1.1rem;
             }
-
-            .services-grid,
-            .benefits-grid {
+            .services-grid {
                 grid-template-columns: 1fr;
             }
-
             .form-container {
                 padding: 30px 20px;
             }
         }
     </style>
 </head>
-
 <body>
     <!-- Hero Section -->
     <header>
         <div class="container">
-            <h1>FABRIKA KADROV — Фабрика кадров</h1>
+            <h1>Фабрика кадров</h1>
             <p>12 лет на рынке. Гарантия результата. Подбор, обучение и оценка персонала для бизнеса Урала</p>
             <a href="#contact-form" class="btn">Получить консультацию</a>
         </div>
@@ -370,12 +332,13 @@
     <section class="services">
         <div class="container">
             <h2>Наши услуги</h2>
+
+            <!-- Рекрутинг -->
+            <h3 class="category-title">Рекрутинг</h3>
             <div class="services-grid">
-                <!-- Service 1 -->
+                <!-- Подбор бухгалтера -->
                 <div class="service-card">
-                    <div class="service-img"
-                        style="background-image: url('https://static.tildacdn.com/stor6635-3032-4266-a265-323835626231/68495393.png');">
-                    </div>
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor6635-3032-4266-a265-323835626231/68495393.png');"></div>
                     <div class="service-content">
                         <h3 class="service-title">Подбор бухгалтера</h3>
                         <div class="rating">
@@ -383,19 +346,98 @@
                             <div class="reviews">4.9 (15 отзывов)</div>
                         </div>
                         <div class="service-price">70 000 ₽</div>
-                        <p class="service-desc">Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в
-                            1 000 000 резюме. Гарантия замены 1 год.</p>
+                        <p class="service-desc">Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</p>
                         <div class="badge">Гарантия результата</div>
-                        <a href="http://hrural.ru/recruting/tproduct/544414136-459440814201-podbor-buhgaltera"
-                            class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                        <a href="http://hrural.ru/recruting/tproduct/544414136-459440814201-podbor-buhgaltera" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
                     </div>
                 </div>
 
-                <!-- Service 2 -->
+                <!-- Подбор менеджера -->
                 <div class="service-card">
-                    <div class="service-img"
-                        style="background-image: url('https://static.tildacdn.com/stor3035-6333-4566-a131-663434633836/26443467.png');">
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor3638-3930-4936-b739-353361396538/93663065.png');"></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Подбор менеджера</h3>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="reviews">4.9 (15 отзывов)</div>
+                        </div>
+                        <div class="service-price">80 000 ₽</div>
+                        <p class="service-desc">Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</p>
+                        <div class="badge">Гарантия результата</div>
+                        <a href="http://hrural.ru/recruting/tproduct/544414136-953099547161-podbor-menedzhera" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
                     </div>
+                </div>
+
+                <!-- Подбор технолога -->
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor3436-3435-4333-a139-383365646431/14433498.png');"></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Подбор технолога</h3>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="reviews">4.9 (15 отзывов)</div>
+                        </div>
+                        <div class="service-price">80 000 ₽</div>
+                        <p class="service-desc">Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</p>
+                        <div class="badge">Гарантия результата</div>
+                        <a href="http://hrural.ru/recruting/tproduct/544414136-923086197801-podbor-tehnologa" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                    </div>
+                </div>
+
+                <!-- Подбор юриста -->
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor6261-3532-4831-b231-656339656336/48203661.png');"></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Подбор юриста</h3>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="reviews">4.9 (15 отзывов)</div>
+                        </div>
+                        <div class="service-price">70 000 ₽</div>
+                        <p class="service-desc">Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</p>
+                        <div class="badge">Гарантия результата</div>
+                        <a href="http://hrural.ru/recruting/tproduct/544414136-928543504881-podbor-yurista" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                    </div>
+                </div>
+
+                <!-- Подбор руководителя -->
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor3566-3663-4639-a465-383430633237/70697207.png');"></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Подбор руководителя</h3>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="reviews">4.9 (15 отзывов)</div>
+                        </div>
+                        <div class="service-price">120 000 ₽</div>
+                        <p class="service-desc">Найдем кандидатов в закрытых источниках, в узком сегменте, конфиденциально. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</p>
+                        <div class="badge">Гарантия результата</div>
+                        <a href="http://hrural.ru/recruting/tproduct/544414136-350728386821-podbor-rukovoditelya" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                    </div>
+                </div>
+
+                <!-- Подбор ИТР -->
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor3831-6334-4535-b830-343665336264/81224677.png');"></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Подбор ИТР</h3>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="reviews">4.9 (15 отзывов)</div>
+                        </div>
+                        <div class="service-price">70 000 ₽</div>
+                        <p class="service-desc">Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</p>
+                        <div class="badge">Гарантия результата</div>
+                        <a href="http://hrural.ru/recruting/tproduct/544414136-231879443151-podbor-itr" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Оценка персонала -->
+            <h3 class="category-title">Оценка персонала</h3>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor3035-6333-4566-a131-663434633836/26443467.png');"></div>
                     <div class="service-content">
                         <h3 class="service-title">Оценка персонала</h3>
                         <div class="rating">
@@ -403,19 +445,18 @@
                             <div class="reviews">4.9 (15 отзывов)</div>
                         </div>
                         <div class="service-price">15 000 ₽</div>
-                        <p class="service-desc">Оценка ресурсов и возможностей команды методом ассессмент-центр.
-                            Получите максимально достоверный прогноз успешности (90%) сотрудника.</p>
+                        <p class="service-desc">Оценка ресурсов и возможностей команды методом ассессмент-центр. Получите максимально достоверный прогноз успешности (90%) сотрудника.</p>
                         <div class="badge">Гарантия результата</div>
-                        <a href="http://hrural.ru/ocenka/tproduct/544490434-927748335131-otsenka-personala" class="btn"
-                            style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                        <a href="http://hrural.ru/ocenka/tproduct/544490434-927748335131-otsenka-personala" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Service 3 -->
+            <!-- Обучение персонала -->
+            <h3 class="category-title">Обучение персонала</h3>
+            <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-img"
-                        style="background-image: url('https://static.tildacdn.com/stor6461-6666-4465-a363-633138346533/72767305.png');">
-                    </div>
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor6461-6666-4465-a363-633138346533/72767305.png');"></div>
                     <div class="service-content">
                         <h3 class="service-title">Обучение персонала</h3>
                         <div class="rating">
@@ -423,19 +464,18 @@
                             <div class="reviews">4.9 (15 отзывов)</div>
                         </div>
                         <div class="service-price">6 000 ₽</div>
-                        <p class="service-desc">Программы от 2 часов до 2 дней. Смешанный формат: тренинги, кейсы, игры,
-                            фасилитация. Основная задача — добиться нужного результата.</p>
+                        <p class="service-desc">Программы от 2 часов до 2 дней. Смешанный формат: тренинги, кейсы, игры, фасилитация. Основная задача — добиться нужного результата.</p>
                         <div class="badge">Гарантия результата</div>
-                        <a href="http://hrural.ru/edu/tproduct/544943597-600047622531-obuchenie-personala" class="btn"
-                            style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                        <a href="http://hrural.ru/edu/tproduct/544943597-600047622531-obuchenie-personala" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Service 4 -->
+            <!-- Диагностика интеллекта -->
+            <h3 class="category-title">Диагностика интеллекта</h3>
+            <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-img"
-                        style="background-image: url('https://static.tildacdn.com/stor6563-3234-4333-a431-623965316436/27858540.png');">
-                    </div>
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor6563-3234-4333-a431-623965316436/27858540.png');"></div>
                     <div class="service-content">
                         <h3 class="service-title">Диагностика интеллекта</h3>
                         <div class="rating">
@@ -443,19 +483,18 @@
                             <div class="reviews">4.9 (15 отзывов)</div>
                         </div>
                         <div class="service-price">15 000 ₽</div>
-                        <p class="service-desc">Диагностика без тестов. Метод основан на оценке функциональной
-                            связанности мозга. 99% достоверность. Без возможности «подделать» результат.</p>
+                        <p class="service-desc">Диагностика без тестов. Метод основан на оценке функциональной связанности мозга. 99% достоверность. Без возможности «подделать» результат.</p>
                         <div class="badge">Гарантия результата</div>
-                        <a href="http://hrural.ru/diag/tproduct/544948129-178226471701-diagnostika-intellekta"
-                            class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                        <a href="http://hrural.ru/diag/tproduct/544948129-178226471701-diagnostika-intellekta" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Service 5 -->
+            <!-- Работа с кадровым ядром -->
+            <h3 class="category-title">Работа с кадровым ядром</h3>
+            <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-img"
-                        style="background-image: url('https://static.tildacdn.com/stor6539-3938-4731-b632-346365316435/99404637.png');">
-                    </div>
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor6539-3938-4731-b632-346365316435/99404637.png');"></div>
                     <div class="service-content">
                         <h3 class="service-title">Работа с кадровым ядром</h3>
                         <div class="rating">
@@ -463,19 +502,18 @@
                             <div class="reviews">4.9 (15 отзывов)</div>
                         </div>
                         <div class="service-price">50 000 ₽</div>
-                        <p class="service-desc">Решите реальные проблемы организации в нестандартном формате. Повысьте
-                            эффективность взаимодействия между подразделениями. Сформируйте кадровый резерв.</p>
+                        <p class="service-desc">Решите реальные проблемы организации в нестандартном формате. Повысьте эффективность взаимодействия между подразделениями. Сформируйте кадровый резерв.</p>
                         <div class="badge">Гарантия результата</div>
-                        <a href="http://hrural.ru/yadro/tproduct/544948132-249105306291-rabota-s-kadrovim-yadrom"
-                            class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                        <a href="http://hrural.ru/yadro/tproduct/544948132-249105306291-rabota-s-kadrovim-yadrom" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Service 6 -->
+            <!-- Привлечение молодежи -->
+            <h3 class="category-title">Привлечение молодежи</h3>
+            <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-img"
-                        style="background-image: url('https://static.tildacdn.com/stor3236-3732-4530-a530-326165643463/51942182.png');">
-                    </div>
+                    <div class="service-img" style="background-image: url('https://static.tildacdn.com/stor3236-3732-4530-a530-326165643463/51942182.png');"></div>
                     <div class="service-content">
                         <h3 class="service-title">Привлечение молодежи</h3>
                         <div class="rating">
@@ -483,11 +521,9 @@
                             <div class="reviews">4.9 (15 отзывов)</div>
                         </div>
                         <div class="service-price">50 000 ₽</div>
-                        <p class="service-desc">Создаем систему по привлечению студентов. Привлечём талантливую,
-                            амбициозную, целеустремлённую молодёжь, готовую всему обучиться.</p>
+                        <p class="service-desc">Создаем систему по привлечению студентов. Привлечём талантливую, амбициозную, целеустремлённую молодёжь, готовую всему обучиться.</p>
                         <div class="badge">Гарантия результата</div>
-                        <a href="http://hrural.ru/young/tproduct/544971528-663098661961-privlechenie-molodezhi"
-                            class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
+                        <a href="http://hrural.ru/young/tproduct/544971528-663098661961-privlechenie-molodezhi" class="btn" style="margin-top: 20px; display: block; text-align: center;">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -498,11 +534,8 @@
     <section class="method">
         <div class="container">
             <h2>Наша методология</h2>
-            <p>Усиление кадрового ядра компании реализуется через организацию <strong>проектной работы</strong>
-                сотрудников <strong>разных подразделений</strong> для <strong>решения</strong> непрофильных, но
-                <strong>актуальных задач</strong> организации.</p>
-            <p>Работа над проектом сочетается с модулями обучения (тренинги, семинары, коучинг). Люди учатся и
-                развиваются через действие — в основе лежит технология <strong>«Обучение действием»</strong>.</p>
+            <p>Усиление кадрового ядра компании реализуется через организацию <strong>проектной работы</strong> сотрудников <strong>разных подразделений</strong> для <strong>решения</strong> непрофильных, но <strong>актуальных задач</strong> организации.</p>
+            <p>Работа над проектом сочетается с модулями обучения (тренинги, семинары, коучинг). Люди учатся и развиваются через действие — в основе лежит технология <strong>«Обучение действием»</strong>.</p>
             <a href="#contact-form" class="btn">Применить в вашей компании</a>
         </div>
     </section>
@@ -512,8 +545,7 @@
         <div class="container">
             <h2>Оставьте заявку</h2>
             <div class="form-container">
-                <p class="form-note">Здесь вам не требуется что-либо оплачивать. Вы только оформляете предзаказ на
-                    услугу.</p>
+                <p class="form-note">Здесь вам не требуется что-либо оплачивать. Вы только оформляете предзаказ на услугу.</p>
                 <form id="contactForm">
                     <div class="form-group">
                         <label for="name">Ваше имя</label>
@@ -531,7 +563,14 @@
                         <label for="service">Интересующая услуга</label>
                         <select id="service" name="service" required>
                             <option value="">Выберите услугу</option>
-                            <option value="recruting">Подбор бухгалтера</option>
+                            <optgroup label="Рекрутинг">
+                                <option value="buh">Подбор бухгалтера</option>
+                                <option value="men">Подбор менеджера</option>
+                                <option value="tech">Подбор технолога</option>
+                                <option value="law">Подбор юриста</option>
+                                <option value="dir">Подбор руководителя</option>
+                                <option value="itr">Подбор ИТР</option>
+                            </optgroup>
                             <option value="ocenka">Оценка персонала</option>
                             <option value="edu">Обучение персонала</option>
                             <option value="diag">Диагностика интеллекта</option>
@@ -541,8 +580,7 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Комментарий (необязательно)</label>
-                        <textarea id="message" name="message" rows="4"
-                            placeholder="Расскажите подробнее о вашей задаче"></textarea>
+                        <textarea id="message" name="message" rows="4" placeholder="Расскажите подробнее о вашей задаче"></textarea>
                     </div>
                     <button type="submit" class="btn" style="width: 100%;">Отправить заявку</button>
                 </form>
@@ -561,13 +599,13 @@
                 <a href="https://hrural.ru/young">Молодежь</a>
             </div>
             <div class="copyright">
-                © 2025 FABRIKA KADROV «Фабрика кадров». Екатеринбург. info@hrural.ru
+                © 2025 «Фабрика кадров». Екатеринбург. info@hrural.ru
             </div>
         </div>
     </footer>
 
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function (e) {
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('Спасибо за заявку! Наш специалист свяжется с вами в ближайшее время.');
             this.reset();
@@ -584,6 +622,4 @@
         });
     </script>
 </body>
-
-
 </html>
