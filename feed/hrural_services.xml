@@ -3,7 +3,7 @@
   <shop>
     <name>HR URAL — Фабрика кадров</name>
     <company>HR URAL «Фабрика кадров»</company>
-    <url>https://hrural.ru</url>
+    <url>https://romzeshost.github.io</url>
     <email>info@hrural.ru</email>
     <currencies>
       <currency id="RUR" rate="1"/>
@@ -19,27 +19,27 @@
     <sets>
       <set id="s1">
         <name>Рекрутинг</name>
-        <url><![CDATA[https://hrural.ru/recruting]]></url>
+        <url>https://romzeshost.github.io/#recruting</url>
       </set>
       <set id="s2">
         <name>Оценка персонала</name>
-        <url><![CDATA[https://hrural.ru/ocenka]]></url>
+        <url>https://romzeshost.github.io/#ocenka</url>
       </set>
       <set id="s3">
         <name>Обучение персонала</name>
-        <url><![CDATA[https://hrural.ru/edu]]></url>
+        <url>https://romzeshost.github.io/#edu</url>
       </set>
       <set id="s4">
         <name>Диагностика интеллекта</name>
-        <url><![CDATA[https://hrural.ru/diag]]></url>
+        <url>https://romzeshost.github.io/#diag</url>
       </set>
       <set id="s5">
         <name>Работа с кадровым ядром</name>
-        <url><![CDATA[https://hrural.ru/yadro]]></url>
+        <url>https://romzeshost.github.io/#yadro</url>
       </set>
       <set id="s6">
         <name>Привлечение молодёжи</name>
-        <url><![CDATA[https://hrural.ru/young]]></url>
+        <url>https://romzeshost.github.io/#young</url>
       </set>
     </sets>
     <offers>
@@ -50,7 +50,7 @@
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor6635-3032-4266-a265-323835626231/68495393.png</picture>
-        <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-459440814201-podbor-buhgaltera]]></url>
+        <url>https://romzeshost.github.io/#service_459440814201</url>
         <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
@@ -69,7 +69,7 @@
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3638-3930-4936-b739-353361396538/93663065.png</picture>
-        <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-953099547161-podbor-menedzhera]]></url>
+        <url>https://romzeshost.github.io/#service_953099547161</url>
         <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
@@ -88,7 +88,7 @@
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3436-3435-4333-a139-383365646431/14433498.png</picture>
-        <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-923086197801-podbor-tehnologa]]></url>
+        <url>https://romzeshost.github.io/#service_923086197801</url>
         <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
@@ -107,7 +107,7 @@
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor6261-3532-4831-b231-656339656336/48203661.png</picture>
-        <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-928543504881-podbor-yurista]]></url>
+        <url>https://romzeshost.github.io/#service_928543504881</url>
         <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
@@ -126,7 +126,7 @@
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3566-3663-4639-a465-383430633237/70697207.png</picture>
-        <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-350728386821-podbor-rukovoditelya]]></url>
+        <url>https://romzeshost.github.io/#service_350728386821</url>
         <description>Найдем кандидатов в закрытых источниках, в узком сегменте, конфиденциально. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
@@ -145,7 +145,7 @@
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3831-6334-4535-b830-343665336264/81224677.png</picture>
-        <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-231879443151-podbor-itr]]></url>
+        <url>https://romzeshost.github.io/#service_231879443151</url>
         <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
@@ -164,7 +164,7 @@
         <categoryId>12</categoryId>
         <set-ids>s2</set-ids>
         <picture>https://static.tildacdn.com/stor3035-6333-4566-a131-663434633836/26443467.png</picture>
-        <url><![CDATA[http://hrural.ru/ocenka/tproduct/544490434-927748335131-otsenka-personala]]></url>
+        <url>https://romzeshost.github.io/#service_927748335131</url>
         <description>Оценка ресурсов и возможностей команды методом ассессмент-центр, определение «точек роста» и рисков для принятия важных управленческих/кадровых решений. Получите максимально достоверный прогноз успешности (90%) сотрудника в профессиональной деятельности.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
@@ -183,8 +183,8 @@
         <categoryId>13</categoryId>
         <set-ids>s3</set-ids>
         <picture>https://static.tildacdn.com/stor6461-6666-4465-a363-633138346533/72767305.png</picture>
-        <url><![CDATA[http://hrural.ru/edu/tproduct/544943597-600047622531-obuchenie-personala]]></url>
-        <description>программ от 2-х часов до 2-х дней. Первичный анализ запроса⇒ Разработка программы и Проведение обучения⇒ Закрепление и анализ результата. обучения - смешанный: очные тренинги (видео-тренинг, Мини-лекции, игры, мозговой штурм, фасилитация, упражнения в группах, парах, кейсы) + домашние задания.</description>
+        <url>https://romzeshost.github.io/#service_600047622531</url>
+        <description>Программы от 2-х часов до 2-х дней. Первичный анализ запроса⇒ Разработка программы и Проведение обучения⇒ Закрепление и анализ результата. Формат обучения - смешанный: очные тренинги (видео-тренинг, Мини-лекции, игры, мозговой штурм, фасилитация, упражнения в группах, парах, кейсы) + домашние задания. Основная задача — добиться нужного результата.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -202,7 +202,7 @@
         <categoryId>14</categoryId>
         <set-ids>s4</set-ids>
         <picture>https://static.tildacdn.com/stor6563-3234-4333-a431-623965316436/27858540.png</picture>
-        <url><![CDATA[http://hrural.ru/diag/tproduct/544948129-178226471701-diagnostika-intellekta]]></url>
+        <url>https://romzeshost.github.io/#service_178226471701</url>
         <description>Проведем диагностику методом, не имеющим аналогов, без решения тестовых заданий. Метод основан на оценке функциональной связанности мозга в состоянии спокойного бодрствования. 99 % достоверность результатов. Без возможности «подделать» результат (подготовиться, натренироваться, обмануть).</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
@@ -221,8 +221,8 @@
         <categoryId>15</categoryId>
         <set-ids>s5</set-ids>
         <picture>https://static.tildacdn.com/stor6539-3938-4731-b632-346365316435/99404637.png</picture>
-        <url><![CDATA[http://hrural.ru/yadro/tproduct/544948132-249105306291-rabota-s-kadrovim-yadrom]]></url>
-        <description>Решить реальные проблемы организации (подразделения) в новом, нестандартном формате. Повысить эффективность кросс-функционального взаимодействия между подразделениями. Усилить управленческие компетенции сотрудников</description>
+        <url>https://romzeshost.github.io/#service_249105306291</url>
+        <description>Работа с кадровым ядром позволит: Решить реальные проблемы организации (подразделения) в новом, нестандартном формате. Повысить эффективность кросс-функционального взаимодействия между подразделениями. Усилить управленческие компетенции сотрудников. Внедрить необходимые изменения в организации. Сформировать кадровый резерв (выявить готовность сотрудника к новой роли и новому уровню задач, способность достигать результатов даже при неблагоприятных условиях).</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -240,7 +240,7 @@
         <categoryId>16</categoryId>
         <set-ids>s6</set-ids>
         <picture>https://static.tildacdn.com/stor3236-3732-4530-a530-326165643463/51942182.png</picture>
-        <url><![CDATA[http://hrural.ru/young/tproduct/544971528-663098661961-privlechenie-molodezhi]]></url>
+        <url>https://romzeshost.github.io/#service_663098661961</url>
         <description>Создаем систему по привлечению студентов, которая будет обеспечивать стратегический кадровый резерв квалифицированных инженерно-технических специалистов. Привлечём талантливую амбициозную целеустремлённую молодёжь, готовую всему обучиться.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
