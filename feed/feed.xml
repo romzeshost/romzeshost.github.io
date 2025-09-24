@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-09-16 20:37">
+<yml_catalog date="2025-09-17 10:00">
   <shop>
     <name>HR URAL — Фабрика кадров</name>
     <company>HR URAL «Фабрика кадров»</company>
@@ -45,14 +45,14 @@
     <offers>
       <!-- Подбор бухгалтера -->
       <offer id="service_459440814201" available="true">
-        <name>HR URAL — Фабрика кадров — Подбор бухгалтера</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>70000</price>
         <currencyId>RUR</currencyId>
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor6635-3032-4266-a265-323835626231/68495393.png</picture>
         <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-459440814201-podbor-buhgaltera]]></url>
-        <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
+        <description>Подбор бухгалтера. Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -66,14 +66,14 @@
 
       <!-- Подбор менеджера -->
       <offer id="service_953099547161" available="true">
-        <name>HR URAL — Фабрика кадров — Подбор менеджера</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>80000</price>
         <currencyId>RUR</currencyId>
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3638-3930-4936-b739-353361396538/93663065.png</picture>
         <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-953099547161-podbor-menedzhera]]></url>
-        <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
+        <description>Подбор менеджера. Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -87,14 +87,14 @@
 
       <!-- Подбор технолога -->
       <offer id="service_923086197801" available="true">
-        <name>HR URAL — Фабрика кадров — Подбор технолога</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>80000</price>
         <currencyId>RUR</currencyId>
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3436-3435-4333-a139-383365646431/14433498.png</picture>
         <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-923086197801-podbor-tehnologa]]></url>
-        <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
+        <description>Подбор технолога. Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -108,14 +108,14 @@
 
       <!-- Подбор юриста -->
       <offer id="service_928543504881" available="true">
-        <name>HR URAL — Фабрика кадров — Подбор юриста</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>70000</price>
         <currencyId>RUR</currencyId>
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor6261-3532-4831-b231-656339656336/48203661.png</picture>
         <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-928543504881-podbor-yurista]]></url>
-        <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
+        <description>Подбор юриста. Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -129,14 +129,14 @@
 
       <!-- Подбор руководителя -->
       <offer id="service_350728386821" available="true">
-        <name>HR URAL — Фабрика кадров — Подбор руководителя</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>120000</price>
         <currencyId>RUR</currencyId>
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3566-3663-4639-a465-383430633237/70697207.png</picture>
         <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-350728386821-podbor-rukovoditelya]]></url>
-        <description>Найдем кандидатов в закрытых источниках, в узком сегменте, конфиденциально. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
+        <description>Подбор руководителя. Найдем кандидатов в закрытых источниках, в узком сегменте, конфиденциально. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -150,14 +150,14 @@
 
       <!-- Подбор ИТР -->
       <offer id="service_231879443151" available="true">
-        <name>HR URAL — Фабрика кадров — Подбор ИТР</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>70000</price>
         <currencyId>RUR</currencyId>
         <categoryId>11</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3831-6334-4535-b830-343665336264/81224677.png</picture>
         <url><![CDATA[http://hrural.ru/recruting/tproduct/544414136-231879443151-podbor-itr]]></url>
-        <description>Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
+        <description>Подбор ИТР. Найдём для вас даже тех, кто сам не заявлял о поиске работы. Наша база в 1 000 000 резюме. Гарантия замены 1 год.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -171,14 +171,14 @@
 
       <!-- Оценка персонала -->
       <offer id="service_927748335131" available="true">
-        <name>HR URAL — Фабрика кадров — Оценка персонала</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>15000</price>
         <currencyId>RUR</currencyId>
         <categoryId>12</categoryId>
         <set-ids>s2</set-ids>
         <picture>https://static.tildacdn.com/stor3035-6333-4566-a131-663434633836/26443467.png</picture>
         <url><![CDATA[http://hrural.ru/ocenka/tproduct/544490434-927748335131-otsenka-personala]]></url>
-        <description>Оценка ресурсов и возможностей команды методом ассессмент-центр, определение «точек роста» и рисков для принятия важных управленческих/кадровых решений. Получите максимально достоверный прогноз успешности (90%) сотрудника в профессиональной деятельности.</description>
+        <description>Оценка персонала. Оценка ресурсов и возможностей команды методом ассессмент-центр, определение «точек роста» и рисков для принятия важных управленческих/кадровых решений. Получите максимально достоверный прогноз успешности (90%) сотрудника в профессиональной деятельности.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -192,14 +192,14 @@
 
       <!-- Обучение персонала -->
       <offer id="service_600047622531" available="true">
-        <name>HR URAL — Фабрика кадров — Обучение персонала</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>6000</price>
         <currencyId>RUR</currencyId>
         <categoryId>13</categoryId>
         <set-ids>s3</set-ids>
         <picture>https://static.tildacdn.com/stor6461-6666-4465-a363-633138346533/72767305.png</picture>
         <url><![CDATA[http://hrural.ru/edu/tproduct/544943597-600047622531-obuchenie-personala]]></url>
-        <description>Программы от 2-х часов до 2-х дней. Первичный анализ запроса ⇒ Разработка программы и проведение обучения ⇒ Закрепление и анализ результата. Формат обучения — смешанный: очные тренинги (видео-тренинги, мини-лекции, игры, мозговой штурм, фасилитация, упражнения в группах, парах, кейсы) + домашние задания. Основная задача — добиться нужного результата.</description>
+        <description>Обучение персонала. Программы от 2-х часов до 2-х дней. Первичный анализ запроса ⇒ Разработка программы и проведение обучения ⇒ Закрепление и анализ результата. Формат обучения — смешанный: очные тренинги (видео-тренинги, мини-лекции, игры, мозговой штурм, фасилитация, упражнения в группах, парах, кейсы) + домашние задания. Основная задача — добиться нужного результата.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -213,14 +213,14 @@
 
       <!-- Диагностика интеллекта -->
       <offer id="service_178226471701" available="true">
-        <name>HR URAL — Фабрика кадров — Диагностика интеллекта</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>15000</price>
         <currencyId>RUR</currencyId>
         <categoryId>14</categoryId>
         <set-ids>s4</set-ids>
         <picture>https://static.tildacdn.com/stor6563-3234-4333-a431-623965316436/27858540.png</picture>
         <url><![CDATA[http://hrural.ru/diag/tproduct/544948129-178226471701-diagnostika-intellekta]]></url>
-        <description>Проведем диагностику методом, не имеющим аналогов, без решения тестовых заданий. Метод основан на оценке функциональной связанности мозга в состоянии спокойного бодрствования. 99% достоверность результатов. Без возможности «подделать» результат (подготовиться, натренироваться, обмануть).</description>
+        <description>Диагностика интеллекта. Проведем диагностику методом, не имеющим аналогов, без решения тестовых заданий. Метод основан на оценке функциональной связанности мозга в состоянии спокойного бодрствования. 99% достоверность результатов. Без возможности «подделать» результат (подготовиться, натренироваться, обмануть).</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -234,14 +234,14 @@
 
       <!-- Работа с кадровым ядром -->
       <offer id="service_249105306291" available="true">
-        <name>HR URAL — Фабрика кадров — Работа с кадровым ядром</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>50000</price>
         <currencyId>RUR</currencyId>
         <categoryId>15</categoryId>
         <set-ids>s5</set-ids>
         <picture>https://static.tildacdn.com/stor6539-3938-4731-b632-346365316435/99404637.png</picture>
         <url><![CDATA[http://hrural.ru/yadro/tproduct/544948132-249105306291-rabota-s-kadrovim-yadrom]]></url>
-        <description>Решить реальные проблемы организации (подразделения) в новом, нестандартном формате. Повысить эффективность кросс-функционального взаимодействия между подразделениями. Усилить управленческие компетенции сотрудников. Внедрить необходимые изменения в организации. Сформировать кадровый резерв (выявить готовность сотрудника к новой роли и новому уровню задач, способность достигать результатов даже при неблагоприятных условиях).</description>
+        <description>Работа с кадровым ядром. Решить реальные проблемы организации (подразделения) в новом, нестандартном формате. Повысить эффективность кросс-функционального взаимодействия между подразделениями. Усилить управленческие компетенции сотрудников. Внедрить необходимые изменения в организации. Сформировать кадровый резерв (выявить готовность сотрудника к новой роли и новому уровню задач, способность достигать результатов даже при неблагоприятных условиях).</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
@@ -255,14 +255,14 @@
 
       <!-- Привлечение молодежи -->
       <offer id="service_663098661961" available="true">
-        <name>HR URAL — Фабрика кадров — Привлечение молодежи</name>
+        <name>ООО «Фабрика кадров»</name>
         <price>50000</price>
         <currencyId>RUR</currencyId>
         <categoryId>16</categoryId>
         <set-ids>s6</set-ids>
         <picture>https://static.tildacdn.com/stor3236-3732-4530-a530-326165643463/51942182.png</picture>
         <url><![CDATA[http://hrural.ru/young/tproduct/544971528-663098661961-privlechenie-molodezhi]]></url>
-        <description>Создаем систему по привлечению студентов, которая будет обеспечивать стратегический кадровый резерв квалифицированных инженерно-технических специалистов. Привлечём талантливую амбициозную целеустремлённую молодёжь, готовую всему обучиться.</description>
+        <description>Привлечение молодежи. Создаем систему по привлечению студентов, которая будет обеспечивать стратегический кадровый резерв квалифицированных инженерно-технических специалистов. Привлечём талантливую амбициозную целеустремлённую молодёжь, готовую всему обучиться.</description>
         <adult>false</adult>
         <expiry>P1Y</expiry>
         <param name="Рейтинг">4.9</param>
